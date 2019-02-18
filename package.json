@@ -5,6 +5,10 @@
   "author": "Takanori Hoshi",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "webpack --mode development",
+    "build-production": "webpack --mode production"
+  },
   "devDependencies": {
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
