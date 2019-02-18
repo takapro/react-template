@@ -4,5 +4,9 @@
   "description": "Exam Schedule Finder",
   "author": "Takanori Hoshi",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
 }
