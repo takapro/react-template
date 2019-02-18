@@ -1,0 +1,8 @@
+{
+  "name": "exam-finder",
+  "version": "1.0.0",
+  "description": "Exam Schedule Finder",
+  "author": "Takanori Hoshi",
+  "license": "MIT",
+  "private": true
+}
