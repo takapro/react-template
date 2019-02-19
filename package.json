@@ -9,6 +9,12 @@
     "build": "webpack --mode development",
     "build-production": "webpack --mode production"
   },
+  "dependencies": {
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
   "devDependencies": {
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3",
