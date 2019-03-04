@@ -8,7 +8,8 @@
   "scripts": {
     "build": "webpack --mode development",
     "build-watch": "webpack --mode development --watch",
-    "build-production": "webpack --mode production"
+    "build-production": "webpack --mode production",
+    "test": "jest"
   },
   "dependencies": {
     "@types/react": "^16.8.3",
