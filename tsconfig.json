@@ -3,7 +3,7 @@
     "strict": true,
     "target": "es5",
     "module": "es2015",
-    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "jsx": "react",
     "lib": ["dom", "esnext"],
     "types": ["jest"]

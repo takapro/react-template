@@ -1,13 +1,15 @@
 const path = require('path');
 
 module.exports = (env, argv) => {
-  const is_dev = argv.mode === 'development';
+  const is_dev = argv.mode !== 'production';
   return {
-    devtool: is_dev ? 'source-map' : 'none',
+    mode: is_dev ? 'development' : 'production',
+    devtool: is_dev ? 'inline-source-map' : 'none',
     entry: './src/index.tsx',
     output: {
       filename: 'bundle.js',
-      path: path.join(__dirname, './public/js' + (is_dev ? '-dev' : ''))
+      path: path.join(__dirname, './public/js' + (is_dev ? '-dev' : '')),
+      publicPath: '/js/'
     },
     resolve: {
       extensions: ['.ts', '.tsx', '.js']
