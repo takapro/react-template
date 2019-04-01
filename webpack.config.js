@@ -8,8 +8,8 @@ module.exports = (env, argv) => {
     entry: './src/index.tsx',
     output: {
       filename: 'bundle.js',
-      path: path.join(__dirname, './public/js' + (is_dev ? '-dev' : '')),
-      publicPath: '/js/'
+      path: path.join(__dirname, './public'),
+      publicPath: '/'
     },
     resolve: {
       extensions: ['.ts', '.tsx', '.js']
