@@ -1,7 +1,7 @@
 {
-  "name": "exam-finder",
+  "name": "react-template",
   "version": "1.0.0",
-  "description": "Exam Schedule Finder",
+  "description": "React Project Template",
   "author": "Takanori Hoshi",
   "license": "MIT",
   "private": true,
