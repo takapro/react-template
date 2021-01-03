@@ -7,28 +7,28 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --watch-content-base --content-base public",
+    "start": "webpack serve --watch-content-base --content-base public",
     "lint": "eslint --ext js,ts,tsx src",
     "test": "ts-node -O '{\"module\":\"commonjs\"}' node_modules/tape/bin/tape src/**/*.test.ts"
   },
   "dependencies": {
-    "@types/react": "^16.9.49",
-    "@types/react-dom": "^16.9.8",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@types/tape": "^4.13.0",
-    "@typescript-eslint/eslint-plugin": "^4.1.1",
-    "@typescript-eslint/parser": "^4.1.1",
-    "eslint": "^7.9.0",
-    "eslint-plugin-react": "^7.20.6",
-    "tape": "^5.0.1",
-    "ts-loader": "^8.0.3",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.2",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint": "^7.17.0",
+    "eslint-plugin-react": "^7.22.0",
+    "tape": "^5.1.0",
+    "ts-loader": "^8.0.13",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
   }
 }

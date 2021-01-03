@@ -4,7 +4,7 @@ module.exports = (env, argv) => {
   const is_dev = argv.mode !== 'production';
   return {
     mode: is_dev ? 'development' : 'production',
-    devtool: is_dev ? 'inline-source-map' : 'none',
+    devtool: is_dev ? 'inline-source-map' : false,
     entry: './src/index.tsx',
     output: {
       filename: 'bundle.js',
