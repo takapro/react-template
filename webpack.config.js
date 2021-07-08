@@ -18,6 +18,9 @@ module.exports = (env, argv) => {
       rules: [
         { test: /\.tsx?$/, use: [{ loader: 'ts-loader' }] }
       ]
+    },
+    devServer: {
+      static: [path.resolve(__dirname, 'public')]
     }
   };
 };

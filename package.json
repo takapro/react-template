@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --watch-content-base --content-base public",
+    "start": "webpack serve",
     "lint": "eslint --ext js,ts,tsx src",
     "test": "ts-node -O '{\"module\":\"commonjs\"}' node_modules/tape/bin/tape src/**/*.test.ts"
   },
@@ -29,6 +29,6 @@
     "typescript": "^4.3.5",
     "webpack": "^5.43.0",
     "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.0.0-beta.3"
   }
 }
